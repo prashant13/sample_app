@@ -20,3 +20,4 @@ class User < ActiveRecord::Base
 					  :format => { :with => email_regex },
 					  :uniqueness => { :case_sensitive => false }
 end
+
