@@ -5,6 +5,7 @@ source 'http://rubygems.org'
 gem 'rails', '4.1.8'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+gem 'gravatar_image_tag', '1.0.0.pre2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -41,8 +42,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 group :development, :test do 
 	gem 'rspec-rails', '3.1.0'
 	gem 'webrat', '0.7.1'
-	gem 'spork', '0.9.0.rc8'
+	#gem 'spork', '0.9.0.rc8'
 	gem 'annotate', '2.4.0'
+	gem 'factory_girl_rails', '1.0'
 	
 end
 
