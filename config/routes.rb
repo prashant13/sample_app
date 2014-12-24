@@ -1,9 +1,13 @@
 Rails.application.routes.draw do
 
+
   get 'users/new'
 
   resources :users
-  
+  #get 'user/new'
+
+  #get 'users/new'
+
   get '/signup', :to => 'users#new'
 
   get '/contact', :to => 'pages#contact'

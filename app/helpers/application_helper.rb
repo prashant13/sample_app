@@ -1,5 +1,6 @@
 module ApplicationHelper
 	def title
+
 		base_title = "Ruby on Rilas Tutorial Sample App"
 		if @title.nil?
 			base_title
@@ -8,4 +9,5 @@ module ApplicationHelper
 		end
 	end
 	
+
 end
