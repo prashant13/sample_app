@@ -217,24 +217,10 @@ div.field, div.actions {
 	list-style: square;
 }
 
+ul.users {
+	margin-top: 1em;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> modeling-users
-
-
-
+.users li {
+	list-style: none;
+}

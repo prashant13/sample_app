@@ -39,6 +39,7 @@ gem 'protected_attributes'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
+#gem 'will_paginate', '3.0.pre2'
 group :development, :test do 
 	gem 'rspec-rails', '3.1.0'
 	gem 'webrat', '0.7.1'
@@ -49,6 +50,7 @@ group :development, :test do
 
 	gem 'autotest', '4.4.6'
 	gem 'autotest-rails-pure', '4.1.2'
+	gem 'faker', '0.3.1'
 	
 
 	
