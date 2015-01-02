@@ -8,8 +8,8 @@ Rails.application.routes.draw do
 
   get 'users/new'
 
- # get '/microposts', :to => 'microposts#create'
- # get '/microposts/#{id}', :to => 'microposts#destroy'
+  get '/microposts', :to => 'microposts#new'
+  get '/microposts/:id', :to => 'microposts#destroy'
 
   get '/signup', :to => 'users#new'
   get '/signin', :to => 'sessions#new'
